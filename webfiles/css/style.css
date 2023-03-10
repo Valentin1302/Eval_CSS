@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap%27);
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Montserrat:wght@700&display=swap%27);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header{
+    background-color: #345765;
+}
+nav {
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    align-items: center; 
+    margin: auto;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+}
+header nav ul a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:42px 40px;
+}
+/* Main */
+h1{
+    margin-top: 7rem;
+    color:#34A58A;
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+}
+main{
+    max-width: 1400px;
+    margin: auto;
+}
+h2{
+    font-size: 2.25rem;
+    margin-top: 7rem;
+    margin-bottom: 3.25rem;
+    font-family:'Montserrat';
+    color: #6B5B54;
+}
+header nav img{
+    margin: 10px;
+}
+#billard{
+    display: flex;
+    max-width: 1400px;
+    margin-top: 3.5rem;
+}
+
+iframe{
+    margin-top: 1rem;
+    width: 34.375rem;
+    height: 35rem;
+    margin-bottom: 16rem;
+}
+
+article{
+    max-width:1400px ;
+    margin: auto;
+    display: flex;
+}
+.Lorem1{
+    text-align: justify;
+    padding-right: 5.75rem;
+    margin-bottom:1rem;
+    margin-top: 2rem;
+}
+.Lorem2{
+    text-align: justify;
+    padding-right: 5.75rem;
+}
+
+div h2{
+    margin-top: 4.125rem;
+    margin-bottom: 1rem;
+}
+#bloc1{
+    padding: 3rem;
+}
+#bloc2{
+    padding: 3rem;
+}
+#city{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    color: #34A58A;
+}
+#loc{
+    display: flex;
+    margin-top: 1.3rem;
+    color:#34A58A;
+}
+#tel{
+    margin-top: 1rem;
+}
+.nummail{
+    margin-top: 1.3rem;
+    text-decoration: none;
+    color: #34A58A;
+}
+.loca{
+    margin-right:1.9rem;
+}
+.tell ,.boite{
+    margin-right: 1rem;
+}
+
+/* Footer */
+footer{
+    background-color:#345765;
+ }
+ footer>div{
+    max-width: 1300px;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    text-decoration: underline;
+    padding-bottom: 2rem;
+    color: white;
+}
+#imagefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem;
+}
+#bloc1{
+    padding: 3rem;
+}
+#coortel{
+    margin-bottom: 1rem;
+}
+#coormail{
+    margin-bottom: 1rem;
+ }
+#gmaill{
+    margin-bottom:1rem 0;
+}
+#siocal{
+    padding-bottom: 1rem;
+}
+#domicile{
+    display: flex;
+    color: white;
+    margin-bottom: 0.4rem;
+}
+.maison{
+    margin-right: 0.5rem;
+}
+#ville{
+    color: white;
+    margin-left:1.8rem; 
+}
+#bloc2{
+    padding: 3rem;
+}
+#chiffre{
+    display: flex;
+    color: white;
+    margin-top: 1.4rem;   
+}
+.com{
+    width: 4.7rem;
+}
+ #chiffre1{
+    margin-bottom: 1rem;
+}
+#titre3{
+    margin-top: 1.3rem;
+}
+#jur{
+    padding-bottom: 1rem;
+}
+#plan{
+    margin-top: 0.6rem;
+}
+#conclusion{
+    color: white;
+    border-top: 2px white solid;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) { 
+    ul{
+        position: relative;
+        width: 50px;
+        height: 30px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+     }
+     ul::before{
+        position: absolute;
+        content: "";
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 2px;
+        background-color: white;
+     }
+     header nav ul a{
+        display: none;
+     }
+     #billard{
+        max-width: 100%;
+     }
+     main{
+        margin:0 1rem;
+     }
+     #tel{
+        padding-bottom: 1rem;
+     }
+}
